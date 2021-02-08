@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9490447600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "We should be in the Home page",
+            "match": {
+              "location": "StepDefinition.Steps.we_should_be_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T05:11:02.717Z",
+        "line": 25,
+        "name": "To Test Login with Different Data",
+        "description": "",
+        "id": "to-validate-login-application;to-test-login-with-different-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118059700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the valid name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_the_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112751200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter valid password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5256423100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Login validButton",
+            "match": {
+              "location": "StepDefinition.Steps.click_on_login_valid_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cWelcome [veena]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinition.Steps.i_should_see_username_as(Steps.java:53)\r\n\tat ✽.I should see username as \"Welcome Paul\"(file:///C:/Users/ChintalapatiRaasi/git/repository4/UAT/Login/Login.feature:21)\r\n",
+              "duration": 42887400,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I should see username as \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paul\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.Steps.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validcase"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8124128800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "We should be in the Home page",
+            "match": {
+              "location": "StepDefinition.Steps.we_should_be_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T05:11:17.927Z",
+        "line": 26,
+        "name": "To Test Login with Different Data",
+        "description": "",
+        "id": "to-validate-login-application;to-test-login-with-different-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98736600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Enter the valid name \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_the_valid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92751100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Enter valid password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5164470800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Login validButton",
+            "match": {
+              "location": "StepDefinition.Steps.click_on_login_valid_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cWelcome [veena]\u003e but was:\u003cWelcome [Paul]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefinition.Steps.i_should_see_username_as(Steps.java:53)\r\n\tat ✽.I should see username as \"Welcome Paul\"(file:///C:/Users/ChintalapatiRaasi/git/repository4/UAT/Login/Login.feature:21)\r\n",
+              "duration": 34816200,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I should see username as \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paul\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.Steps.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@validcase"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7902643900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "We should be in the Home page",
+            "match": {
+              "location": "StepDefinition.Steps.we_should_be_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T05:11:31.462Z",
+        "line": 29,
+        "name": "To Test Login with Invalid Scenario",
+        "description": "",
+        "id": "to-validate-login-application;to-test-login-with-invalid-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103286900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter the invalid name \"raasi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"raasi\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_the_invalid_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70827100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter invalid Password \"raasi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"raasi\"",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.Steps.enter_invalid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721515100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Login invalidButton",
+            "match": {
+              "location": "StepDefinition.Steps.click_on_login_invalid_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see the invalid credential as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.Steps.i_should_see_the_invalid_credential_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalidcase"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login Application",
+    "description": "1) Valid case\n2) Invalid case",
+    "id": "to-validate-login-application",
+    "keyword": "Feature",
+    "uri": "file:Login/Login.feature",
+    "tags": []
+  }
+]

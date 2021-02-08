@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="37.942">
+    <testcase classname="To validate Login Application" name="To Test Login with Different Data" time="15.163">
+        <failure message="expected:&lt;Welcome [veena]&gt; but was:&lt;Welcome [Paul]&gt;" type="junit.framework.ComparisonFailure">
+            <![CDATA[Given We should be in the Home page.........................................passed
+When Enter the valid name "Admin"...........................................passed
+And Enter valid password "admin123".........................................passed
+And Click on Login validButton..............................................passed
+Then I should see username as "Welcome Paul"................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Welcome [veena]> but was:<Welcome [Paul]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.Steps.i_should_see_username_as(Steps.java:53)
+	at ✽.I should see username as "Welcome Paul"(file:///C:/Users/ChintalapatiRaasi/git/repository4/UAT/Login/Login.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To validate Login Application" name="To Test Login with Different Data 2" time="13.518">
+        <failure message="expected:&lt;Welcome [veena]&gt; but was:&lt;Welcome [Paul]&gt;" type="junit.framework.ComparisonFailure">
+            <![CDATA[Given We should be in the Home page.........................................passed
+When Enter the valid name "Admin"...........................................passed
+And Enter valid password "admin123".........................................passed
+And Click on Login validButton..............................................passed
+Then I should see username as "Welcome Paul"................................failed
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<Welcome [veena]> but was:<Welcome [Paul]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at StepDefinition.Steps.i_should_see_username_as(Steps.java:53)
+	at ✽.I should see username as "Welcome Paul"(file:///C:/Users/ChintalapatiRaasi/git/repository4/UAT/Login/Login.feature:21)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="To validate Login Application" name="To Test Login with Invalid Scenario" time="8.803">
+        <system-out>
+            <![CDATA[Given We should be in the Home page.........................................passed
+When Enter the invalid name "raasi".........................................passed
+And Enter invalid Password "raasi"..........................................passed
+And Click on Login invalidButton............................................passed
+Then I should see the invalid credential as "Invalid credentials"...........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
